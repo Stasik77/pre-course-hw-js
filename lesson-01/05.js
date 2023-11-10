@@ -1,6 +1,6 @@
 let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом.";
  
-
+rule.length
 switch (rule) {
 
 case rule.length > 25:
@@ -9,14 +9,11 @@ case rule.length > 25:
 case rule.length < 25:
      console.log("У меня 100 пудов все получится");
      break;
-case rule.length == 25:
-     console.log("50 на 50");
-     break;  
-     
+ 
 
      default:
 
-     console.log(rule);
+     console.log("50 на 50");
 
      break;
 }
