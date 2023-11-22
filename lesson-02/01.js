@@ -1,2 +1,2 @@
 doArrow = (value) => alert(value);
-alert('Передай 5');
+console.log('Передай 5');
