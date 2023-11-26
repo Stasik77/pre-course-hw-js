@@ -13,3 +13,4 @@ for (let name in passport ) {
 
 newPassport.name = 'Ivan';
 console.log(passport.name);
+console.log(newPassport.name);
