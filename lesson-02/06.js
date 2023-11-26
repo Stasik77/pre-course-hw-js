@@ -7,8 +7,13 @@ let passportWithAddress = {
     }
 };
 
-let newPassportWithAddress = passportWithAddress;
+let newPassportWithAddress = {};
 
+for (let city in passportWithAddress ){
+    newPassportWithAddress[city] = passportWithAddress[city];
+}
 newPassportWithAddress.address.city='Bobryisk';
+
+ 
 
 console.log(passportWithAddress.address.city);
