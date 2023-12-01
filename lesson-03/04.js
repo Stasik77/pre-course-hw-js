@@ -61,5 +61,5 @@ const users = [
     }
 ];
 
-let usersId = users.filter(users =>users.id%2===0);
+  const usersId = users.filter(users =>users.id%2===0);
 console.log(usersId)
