@@ -25,5 +25,5 @@ const newObj = {
     surName: 'Susanin',
     address: 'Unknown'
 }
-
-console.log(users2.push(newObj));
+users2.push(newObj);
+console.log(users2);
